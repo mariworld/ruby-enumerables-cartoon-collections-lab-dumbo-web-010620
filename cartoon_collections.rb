@@ -5,7 +5,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls #{|element| puts "#{element}!"}
-  
+  binding.pry
 end
 
 def long_planeteer_calls# code an argument here
