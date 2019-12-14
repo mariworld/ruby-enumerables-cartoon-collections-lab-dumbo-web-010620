@@ -1,8 +1,8 @@
 def roll_call_dwarves(dwarves)
   dwarves.each do |dwarf|
     puts dwarf
+    binding.pry
   end
-  binding.pry
 end
 
 def summon_captain_planet# code an argument here
