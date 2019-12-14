@@ -1,5 +1,7 @@
 def roll_call_dwarves(dwarves)
-  dwarves.each {|p| puts "#{p}"}
+  dwarves.each do |dwarf|
+    puts dwarf
+  end
   binding.pry
 end
 
