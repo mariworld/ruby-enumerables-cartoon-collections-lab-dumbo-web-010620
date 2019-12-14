@@ -14,5 +14,5 @@ end
 
 def find_the_cheese(foods)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  foods.uniq! {|i| i and i == cheese_types}
+  foods.uniq! {|i| i.first and i == cheese_types}
 end
