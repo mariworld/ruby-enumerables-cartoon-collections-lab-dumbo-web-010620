@@ -4,8 +4,8 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls #{|element| puts "#{element}!"}
-  binding.pry
+  planeteer_calls {|element| puts "#{element,capitalize}!"}
+
 end
 
 def long_planeteer_calls# code an argument here
